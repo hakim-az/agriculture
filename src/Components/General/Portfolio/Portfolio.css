@@ -1,0 +1,11 @@
+/* Yellowtail */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.bg-image:hover .bg-link{
+    display: flex;
+}
+
+.portfolio-span{
+    font-size: 22px;
+    font-family:'Yellowtail', cursive;
+}

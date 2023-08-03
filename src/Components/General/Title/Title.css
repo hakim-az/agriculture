@@ -1,0 +1,22 @@
+/* Yellowtail */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+.span-title{
+    font-size: 30px;
+    font-family:'Yellowtail', cursive;
+}
+
+h1{ font-size: 60px; }
+h2{ font-size: 45px; }
+h3{ font-size: 35px; }
+h4{ font-size: 30px; }
+h5{ font-size: 25px; }
+h6{ font-size: 20px; }
+
+h1,h2,h3,h4,h5,h6{
+    color: #274C5B;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 700;
+}
