@@ -41,7 +41,7 @@ function App() {
         {/* CONTACT PAGE */}
         <Route path="/contact" element={<Contact />}/>
         {/* ERROR PAGE */}
-        <Route path="/*" element={<Error />} />
+        <Route path="/error" element={<Error />} />
       </Routes>
     </BrowserRouter>
   )
