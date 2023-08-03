@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import Logo from '../../../assets/Icons/logo.svg'
+import Logo from '../../../assets/Icons/logo.png'
 import Hamburger from '../../../assets/Icons/hamburger.svg'
 import Search from '../../../assets/Icons/search.png'
 import Cart from '../../../assets/Icons/cart.png'
