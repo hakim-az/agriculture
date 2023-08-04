@@ -1,10 +1,10 @@
 import Facebook from '../../../assets/Icons/facebook.png'
 import Instagram from '../../../assets/Icons/instagram.png'
 
-const Team = ({Image, Name, Job}) => {
+const TeamCard = ({Image, Name, Job}) => {
   return (
-    <div className='w-72 rounded-md overflow-hidden bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
-        <img className='w-72 h-72 object-cover' src={Image} alt="" />
+    <div className='w-[350px] rounded-md overflow-hidden bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
+        <img className='w-[350px] h-[350px] object-cover' src={Image} alt="team-image" />
         <div className='p-5'>
             <h6 className='text-lg'>{Name}</h6>
             <div className='flex items-center justify-between'>
@@ -23,4 +23,4 @@ const Team = ({Image, Name, Job}) => {
   )
 }
 
-export default Team
+export default TeamCard
