@@ -2,7 +2,7 @@ import LeftArrow from '../../../assets/Icons/left-arrow.svg'
 import { Link } from 'react-router-dom'
 import './Portfolio.css'
 
-const Portfolio = ({PortfolioImage, Title, Label}) => {
+const PortfolioCard = ({PortfolioImage, Title, Label}) => {
   return (
     <div>
         <div className='bg-image w-[350px] h-[350px] rounded-3xl flex items-center justify-center' style={{backgroundImage: `url(${PortfolioImage})`}}>
@@ -18,4 +18,4 @@ const Portfolio = ({PortfolioImage, Title, Label}) => {
   )
 }
 
-export default Portfolio
+export default PortfolioCard
