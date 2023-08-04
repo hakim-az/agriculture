@@ -7,7 +7,7 @@ const PortfolioCard = ({PortfolioImage, Title, Label}) => {
     <div>
         <div className='bg-image w-[350px] h-[350px] rounded-3xl flex items-center justify-center' style={{backgroundImage: `url(${PortfolioImage})`}}>
             <div className='bg-link hidden items-center justify-center w-[270px] h-[270px] bg-[rgba(255,255,255,0.7)] rounded-2xl'>
-                <Link className='w-10 h-10 rounded-full bg-green flex items-center justify-center' to='/'>
+                <Link className='w-10 h-10 rounded-full bg-green flex items-center justify-center' to='/portfolio-single'>
                     <img src={LeftArrow} alt="" />
                 </Link>
             </div>

@@ -2,7 +2,7 @@ import UserImage from '../../../assets/Icons/user.svg'
 import Arrow from '../../../assets/Icons/arrow.png'
 import { Link } from 'react-router-dom'
 
-const Blog = ({BlogImage, Day, Month, Author, Title, Description}) => {
+const BlogCard = ({BlogImage, Day, Month, Author, Title, Description}) => {
   return (
     <div className='w-2/5 h-80 rounded-lg relative bg-cover bg-no-repeat' style={{backgroundImage: `url(${BlogImage})`, minWidth: '350px'}}>
         <span className='w-14 h-14 flex items-center justify-center rounded-full bg-white leading-tight font-bold text-main-green absolute text-center top-4 left-4'>{Day} <br /> {Month}</span>
@@ -13,10 +13,10 @@ const Blog = ({BlogImage, Day, Month, Author, Title, Description}) => {
             </div>
             <h6 className='mt-2 text-xl text-main-green font-bold'>{Title}</h6>
             <p className='text-base leading-tight mt-2'>{Description}</p>
-            <Link className='flex items-center gap-2 mt-4 text-main-green font-bold' to='/'>Read More <img src={Arrow} alt="" /></Link>
+            <Link className='flex items-center gap-2 mt-4 text-main-green font-bold' to='/blog-single'>Read More <img src={Arrow} alt="" /></Link>
         </div>
     </div>
   )
 }
 
-export default Blog
+export default BlogCard
