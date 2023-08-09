@@ -7,7 +7,7 @@ const Title = ({Label, Title, Size, center}) => {
 
     return (
 
-        <div className={`${center ? 'text-center' : 'placeholder:'} py-10 title`}>
+        <div className={`${center ? 'text-center' : 'placeholder:'} pb-4 title`}>
             {Label ? <span className='text-green span-title'>{Label}</span> : '' }
             <Header>{Title}</Header>
         </div>

@@ -21,19 +21,19 @@ const Navbar = () => {
                 {/* menu */}
                 <ul className={`nav-menu flex gap-4 text-main-green font-bold ${activeMenu ? 'max-[820px]:hidden' : 'max-[820px]:flex'}`}>
                     <li>
-                        <NavLink to='/' className={({ isActive }) => (isActive ? 'px-2 pb-1 hover:border-b-2 border-green text-green' : 'px-2 pb-1 hover:border-b-2 border-green')}> Home </NavLink>
+                        <NavLink onClick={() => setActiveMenu(true)} to='/' className={({ isActive }) => (isActive ? 'px-2 pb-1 hover:border-b-2 border-green text-green' : 'px-2 pb-1 hover:border-b-2 border-green')}> Home </NavLink>
                     </li>
                     <li>
-                        <NavLink to='/about' className={({ isActive }) => (isActive ? 'px-2 pb-1 hover:border-b-2 border-green text-green' : 'px-2 pb-1 hover:border-b-2 border-green')}> About </NavLink>
+                        <NavLink onClick={() => setActiveMenu(true)} to='/about' className={({ isActive }) => (isActive ? 'px-2 pb-1 hover:border-b-2 border-green text-green' : 'px-2 pb-1 hover:border-b-2 border-green')}> About </NavLink>
                     </li>
                     <li>
-                        <NavLink to='/shop' className={({ isActive }) => (isActive ? 'px-2 pb-1 hover:border-b-2 border-green text-green' : 'px-2 pb-1 hover:border-b-2 border-green')}> Shop </NavLink>
+                        <NavLink onClick={() => setActiveMenu(true)} to='/shop' className={({ isActive }) => (isActive ? 'px-2 pb-1 hover:border-b-2 border-green text-green' : 'px-2 pb-1 hover:border-b-2 border-green')}> Shop </NavLink>
                     </li>
                     <li>
-                        <NavLink to='/services' className={({ isActive }) => (isActive ? 'px-2 pb-1 hover:border-b-2 border-green text-green' : 'px-2 pb-1 hover:border-b-2 border-green')}> Services </NavLink>
+                        <NavLink onClick={() => setActiveMenu(true)} to='/services' className={({ isActive }) => (isActive ? 'px-2 pb-1 hover:border-b-2 border-green text-green' : 'px-2 pb-1 hover:border-b-2 border-green')}> Services </NavLink>
                     </li>
                     <li>
-                        <NavLink to='/blog' className={({ isActive }) => (isActive ? 'px-2 pb-1 hover:border-b-2 border-green text-green' : 'px-2 pb-1 hover:border-b-2 border-green')}> Blog </NavLink>
+                        <NavLink onClick={() => setActiveMenu(true)} to='/blog' className={({ isActive }) => (isActive ? 'px-2 pb-1 hover:border-b-2 border-green text-green' : 'px-2 pb-1 hover:border-b-2 border-green')}> Blog </NavLink>
                     </li>
                 </ul>
                 {/* actions */}
